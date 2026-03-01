@@ -8,7 +8,7 @@ import org.springframework.web.cors.reactive.UrlBasedCorsConfigurationSource;
 
 @Configuration
 public class WebConfig {
-    @Bean
+ /*   @Bean
     public CorsWebFilter corsFilter() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
@@ -20,5 +20,5 @@ public class WebConfig {
         source.registerCorsConfiguration("/**", config);
 
         return new CorsWebFilter(source);
-    }
+    }*/
 }

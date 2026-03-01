@@ -17,7 +17,8 @@ services:
     ports:
       - 8080:8080
     environment:
-      SPRING_DATA_MONGODB_URI: mongodb://mongodb:27017/product-db
+      SPRING_DATA_MONGODB_URI: mongodb://mongodb-0:27017/product-db                                                                                                                                                                          :27017/product-db
+#      SPRING_DATA_MONGODB_URI: mongodb://mongodb:27017/product-db
      # SPRING_DATA_MONGODB_URI: mongodb://${DB_HOST}:27017/${DB_NAME}
 #    networks:
 #      - product-network
